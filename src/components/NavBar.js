@@ -1,16 +1,18 @@
-import React from "es6.js";
+import React from "react";
 
-function App() {
-    return <>
-             // Desarrolla tu implementación de un navbar dentro del componente NavBar.js
-             <div className="barra"> 
-                <NavBar />
-                <h2>Las ofertas de la semana</h2>
+class NavBar extends React.Component{
+    render(){
+        return(
+            <div>
+                <h1> ofertas de la semana</h1>
                 <ol>
-                    <li>asado 300</li>
+                    <li>carne 300</li>
                     <li>cerdo 200</li>
                     <li>pollo 100</li>
                 </ol>
-             </div>
-     </>;
+            </div>
+        )
+    }
 }
+
+export default NavBar;
