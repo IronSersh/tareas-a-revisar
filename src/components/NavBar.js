@@ -1,4 +1,5 @@
 import React from "react";
+import Contador from "./counter/itemCount"
 
 class NavBar extends React.Component{
     render(){
@@ -10,8 +11,11 @@ class NavBar extends React.Component{
                     <li>cerdo 200</li>
                     <li>pollo 100</li>
                 </ol>
+                <Contador />
             </div>
+            
         )
+
     }
 }
 
