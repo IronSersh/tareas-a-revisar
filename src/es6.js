@@ -10,6 +10,9 @@ function App() {
             <div className="user">
                <Item />
             </div>
+            <div className="contador">
+               
+            </div>
      </>;
 }
 

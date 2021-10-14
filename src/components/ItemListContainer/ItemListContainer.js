@@ -1,7 +1,12 @@
 import React from 'react';
 import UserCard from './carWidget/CartWidget'
+import list from '../item/itemlist'
 function Item (){ 
 render() 
+    const resolver = new Promise((resolucion, list)=>{
+        resolucion(true)
+    })
+
     return(
             <div>
             <UserCard 
@@ -15,8 +20,11 @@ render()
                   img='https://react.semantic-ui.com/images/avatar/large/matthew.png'
                />
             </div>
+           
         )
     }
 
-
+    resolver.then(resuelto=>{
+        list.then    
+    })
 export default Item;
